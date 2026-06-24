@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #f4f6f9;
+}
+
+.app {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 20px;
+}
+
+.notification-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.notification-card {
+  background: white;
+  border-left: 6px solid #2563eb;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.notification-card h3 {
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.notification-card p {
+  color: #4b5563;
+  margin-bottom: 5px;
+}
+
+.priority {
+  font-weight: bold;
+  color: #dc2626;
+}
+
+.timestamp {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.notification-card:hover {
+  transform: translateY(-2px);
+  transition: 0.3s;
+}
